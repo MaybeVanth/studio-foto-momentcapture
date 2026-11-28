@@ -1,0 +1,141 @@
+/* styles/index.css */
+
+.home-main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px 20px 56px;
+}
+
+.hero-section {
+    background-color: #b6d2e7;
+    color: #1e293b;
+    padding: 36px 28px;
+    border-radius: 10px;
+    border-left: 6px solid #7f5231;
+    margin-bottom: 40px;
+}
+
+.hero-badge {
+    display: inline-block;
+    background-color: #306181;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.hero-section h1 {
+    font-size: 2.1rem;
+    line-height: 1.25;
+    color: #306181;
+    margin-bottom: 12px;
+    max-width: 780px;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: #1e293b;
+    max-width: 720px;
+    margin-bottom: 22px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #306181;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: #7f5231;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #306181;
+    border: 2px solid #306181;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.btn-secondary:hover {
+    background-color: #7f5231;
+    border-color: #7f5231;
+    color: #ffffff;
+}
+
+.highlights-section h2 {
+    font-size: 1.5rem;
+    color: #306181;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #b6d2e7;
+}
+
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+}
+
+.highlight-card {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-top: 4px solid #306181;
+    border-radius: 10px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.highlight-card:hover {
+    border-top-color: #7f5231;
+}
+
+.highlight-card h3 {
+    font-size: 1.15rem;
+    color: #306181;
+}
+
+.highlight-card p {
+    font-size: 0.95rem;
+    color: #334155;
+    line-height: 1.6;
+}
+
+.card-link {
+    margin-top: auto;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #7f5231;
+}
+
+.card-link:hover {
+    color: #306181;
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .hero-section {
+        padding: 24px 18px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.65rem;
+    }
+}
