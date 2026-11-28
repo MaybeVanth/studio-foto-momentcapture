@@ -1,88 +1,74 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
+perbaikan product.css
 
-        body {
-            background-color: #ffffff;
-            color: #ffffff;
-            line-height: 1.6;
-        }
 
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
 
-        .page-title {
-            margin-bottom: 25px;
-        }
+/* styles/products.css */
 
-        .page-title h1 {
-            font-size: 2rem;
-            color: #b6d2e7;
-            margin-bottom: 5px;
-        }
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px 20px 56px;
+}
 
-        .page-title p {
-            color: #b6d2e7;
-            font-size: 1rem;
-        }
+.page-title {
+    background-color: #b6d2e7;
+    color: #306181;
+    padding: 28px 24px;
+    border-radius: 10px;
+    border-left: 6px solid #7f5231;
+    margin-bottom: 32px;
+}
 
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-        }
+.page-title h1 {
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    color: #306181;
+}
 
-        .service-card {
-            background: #b6d2e7;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 4px 15px #b6d2e7;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            border-top: 4px solid #b6d2e7;
-        }
+.page-title p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #1e293b;
+}
 
-        .service-title {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #7f5231;
-            margin-bottom: 10px;
-        }
+.services-section h2 {
+    font-size: 1.5rem;
+    color: #306181;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #b6d2e7;
+}
 
-        .service-desc {
-            font-size: 0.95rem;
-            color: #666;
-            margin-bottom: 20px;
-        }
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
 
-        .service-price {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #2e7d32;
-            margin-bottom: 15px;
-        }
+.service-card {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-top: 4px solid #306181;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-        .btn-detail {
-            display: inline-block;
-            text-align: center;
-            background-color: #1976d2;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            font-weight: 500;
-            transition: background-color 0.3s;
-            cursor: pointer;
-            border: none;
-        }
+.service-card:hover {
+    border-top-color: #7f5231;
+}
 
-        .btn-detail:hover {
-            background-color: #0d47a1;
-        }
+.service-title {
+    font-size: 1.15rem;
+    line-height: 1.35;
+    color: #306181;
+}
+
+.service-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #334155;
+}
